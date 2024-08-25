@@ -1,0 +1,24 @@
+@font-face{
+    src: url(/Save_your_tears_website_project/Fonts/Rubik.ttf);
+    font-family: Rubik;
+}
+
+body{
+    background-color: #222;
+    color: white;
+    font-family: Rubik;
+    text-align: center;
+}
+a{
+    color: #00FFFF;
+    text-decoration: none;
+}
+.imgs{
+    border: 3px solid hsl(0, 10%, 54%);
+}
+.imgs:hover{
+    border-color: hsl(9, 100%, 64%);
+}
+.imgs:active{
+    border-color: hsl(9, 100%, 54%);
+}
