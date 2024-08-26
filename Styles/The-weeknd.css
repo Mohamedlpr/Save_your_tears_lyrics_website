@@ -1,12 +1,7 @@
-@font-face{
-    src: url(/Save_your_tears_website_project/Fonts/Rubik.ttf);
-    font-family: Rubik;
-}
-
 body{
     background-color: #222;
     color: white;
-    font-family: Rubik;
+    font-family: Rubik, Cursive, Sans-serif;
     text-align: center;
 }
 a{
