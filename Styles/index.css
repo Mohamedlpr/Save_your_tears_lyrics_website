@@ -22,18 +22,18 @@ a{
     font-size: x-large;
 }
 .fa-brands.fa-github.fa-4x{
-    margin-left: 175px;
-    padding: 10px;
     position: absolute;
+    transform: translateX(125px);
+    padding: 5px;
     color: white;
 }
 .fa-brands.fa-github.fa-4x:hover{
     color: black;
 }
 .fa-brands.fa-stack-overflow.fa-4x{
-    margin-left: 110px;
-    margin-top: 12px;
+    transform: translateX(200px);
     position: absolute;
+    padding: 5px;
     color: white;
 }
 .fa-brands.fa-stack-overflow.fa-4x:hover{
@@ -47,7 +47,7 @@ a{
     padding-right: 5px;
     border: 2px outset;
     border-radius: 10px;
-    max-width: 480px;
+    max-width: 510px;
     overflow: auto;
 }
 #button{
@@ -68,7 +68,7 @@ a{
 #button:active{
     background-color: hsl(0, 100%, 67%);
 }
-#footer{
+#main_footer{
     font-size: small;
     font-family: Trebuchet MS (sans-serif), Merriweather, Georgia (serif);
     text-align: left;
